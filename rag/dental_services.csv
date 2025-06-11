@@ -1,0 +1,38 @@
+Category,Name,Description,PriceDetails,Duration,InsuranceNotes
+Service,Routine Cleaning (Adult),"Includes scaling, polishing, and fluoride treatment",$100,30 minutes,Covered by most PPO insurances
+Service,Routine Cleaning (Child),For patients under 12,$75,30 minutes,Covered by most PPO insurances
+Service,Dental Exam,Comprehensive oral examination with charting,$80,20 minutes,Covered by most PPO insurances
+Service,X-Ray (Full Mouth),18-film X-ray set,$120,15 minutes,Covered by most PPO insurances
+Service,X-Ray (Bitewing),4 Bitewing X-rays,$60,10 minutes,Covered by most PPO insurances
+Service,Fluoride Treatment,Topical application,$30,5 minutes,Covered for children by most insurances
+Service,Sealants (per tooth),Preventive protection for molars,$40,10 minutes,Covered for children by some plans
+Service,Filling (Composite),Tooth-colored resin fillings,$150,30–45 minutes,Partially covered
+Service,Root Canal – Anterior,Root canal treatment for front teeth,$600,90 minutes,Partially covered
+Service,Root Canal – Molar,Root canal treatment for back teeth,"$1,000",120 minutes,Partially covered
+Service,Tooth Extraction,Simple extraction without surgery,$150,30 minutes,Partially covered
+Service,Surgical Extraction,Complex extraction with surgery,$300,45–60 minutes,Partially covered
+Service,Dental Crown,Porcelain-fused-to-metal crown,"$1,200",2 visits (60 min each),Partially covered
+Service,Teeth Whitening,In-office whitening treatment,$350,60 minutes,Not covered
+Service,Orthodontic Consultation,Assessment for braces or aligners,$100,30 minutes,May be covered with ortho plans
+Service,Invisalign Treatment,Clear aligners for teeth straightening,"$3,500–$5,000",Varies,Partially covered with orthodontic insurance
+Service,Emergency Visit,Same-day urgent exam and pain relief,$150,30 minutes,Often covered under emergency benefits
+Insurance,Delta Dental,PPO and Premier Plans,Accepted,,
+Insurance,MetLife,Preferred Dentist Program,Accepted,,
+Insurance,Cigna Dental,PPO Plans,Accepted,,
+Insurance,Aetna Dental,PPO Plans,Accepted,,
+Insurance,United Concordia,PPO Plans,Accepted,,
+Insurance,Guardian,PPO Plans,Accepted,,
+Insurance,Humana Dental,PPO Plans,Accepted,,
+Insurance,Blue Cross Blue Shield,Dental PPO,Accepted,,
+Insurance,Tricare Dental Program,Military and family,Accepted,,
+Timing,Monday,Clinic Hours,09:00 AM – 05:00 PM,,
+Timing,Tuesday,Clinic Hours,09:00 AM – 05:00 PM,,
+Timing,Wednesday,Clinic Hours,09:00 AM – 05:00 PM,,
+Timing,Thursday,Clinic Hours,09:00 AM – 05:00 PM,,
+Timing,Friday,Clinic Hours,09:00 AM – 03:00 PM,,
+Timing,Saturday,Clinic Hours,By Appointment Only,,
+Timing,Sunday,Clinic Hours,Closed,,
+Policy,Cancellation Policy,Please cancel or reschedule at least 24 hours in advance,$50 fee for late cancellation,,
+Policy,Payment Methods,"Cash, Visa, MasterCard, AMEX, HSA/FSA, CareCredit",,,
+Policy,Emergency Care,Same-day appointments available,Call before arrival,,
+Policy,New Patient Special,"Exam, X-rays, and basic cleaning",$149 (without insurance),,

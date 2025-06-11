@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "dental-ai-agent-0529",
+  "private_key_id": "f7ec5242acb2be99dacd3287739464ec6e14794b",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCg48t9KrJOiSLE\njP1O00Jv27uNljdU8518e1WCVdk0XLXrtsFLBDznDZ+xjjgswv/fCAmsa/KiwrLX\nvk/gViYZ7H8H/y+SMAdbNVFmOCYD6COdry758+8yNUR6N+UinKWyxBy5mxly5ZTq\nst34TURKRd0tpH+r/WkBgYTdQe4UzX1UDVxX+cHVEyfl8SnUzC/F9snRocaf+mx9\n+TFGnq+XXqee5KwgSC5VKZT91Oprrq/EQMPEISSCpgcwg6keOB3lrFHlO9/0/iwR\nEcaVK62Kd+LcQbRj0kSt57F10dC1Lm7y33t7T62rbT/IE8KWBZY/LPAW+qFk7LiB\nSgtvwkC7AgMBAAECggEABO6GopsU8fBYZvyVZTDeBMf2noPzK6deDytIRAfPcfON\n+TnWAGLF+FhdqhePpEID9HlU5pQ86n1PKYRvAvod2xL5rKwtvQYieGRdghi76mG9\n+b7qRAVhfyeZcw+hXMElf4g6Ay+vnre0q8isCJXBv28XaEDctjZwQ6unMxF3mh6X\n9OqiQFBqYDytpbR/BwPuTeZ1erSt5yhFOKFgEondSbF6UzElH9wKBLCl7kjYjFbY\n/rOZwaleJD/blkQfKtVp5NPHYSy3NTrwpKjJRZtldAZgA6gGL2/3BI0H7z7ErEjb\nnUZuRV3cBUTWCspYeYIJcpdsrH/Cmmh1tV9xYNB77QKBgQDUZ8OrY1bp5xB9R2iP\njFBIa/Uv/+kLwoLOVO6L69dFHJkLgnW6NGtr9UnqiGXggHnn8C6yjBkWxs9gGjhL\ncBa6t2UmhU5aXcS9d4ozShidDPJ3T7hI9LxT76xd6Ysoq8MX4JH+fXO6m+U063j8\nYRO5jGOHkbG5WMYkQsoy2M4uBQKBgQDB6UtdXcJ/w9K9r3N+4jLrndsx90TDzmU0\n3MX/WJHW+zqKOSxfOFBhyhSf059U5vaTgstfcSgTvxNLGlu/4ry2P8Ppo1PkE432\nMD2ignX7oHjwfujJAAWB3JfBXCTsLmI3T54fNs4ZYEqKuXxSfatVaXckWpCgGla1\nWNiSM38vvwKBgQC5ORtak7AxHLw2Y1T9CQDhhrMzflh9Vsu2nj2/apQ4wm17qfJ7\nxEaAyFAC45rjoWWtKreuH5mpUQl55qN8tWw8urzMUKc5ClgMWPf9Lfo0yhuOi8hK\nZpDsKS8IXiZp+w6P/deSM1f+PQAtm8HPY+BNh+0rRZPT62QuLsggewug+QKBgAmI\nhLIEaAmMARJeS9lTGZnH2vzr4S+XOBaPPBS/r/vXwhsFkI7l393O55CsAMtVx42d\nAo6gq428+R/aHeSjKw/ytpkH9Jnj9DjESmNw8of6bbe1JZCsNZka1UMmWpJZ/W4m\ntelm8l8BAukrEVek4gWC996LrUyRvu2PfqZBbeFVAoGBANHj/3njh2a6+9U5rqQJ\nerYtX+PzTsFbluW97gCToK3QdM3eXcEI8J/N28nudjHK/TBxUb/g4eF2XPNGWOdh\ny+2EbMpP3EP9bTSzrd+t+g/vZfgzhD5FRG8RyS9NEelePhd8lUgWjdcxd4+BNni7\nPM90ZM1S/n6Q9/EngUQeIx1T\n-----END PRIVATE KEY-----\n",
+  "client_email": "ai-agent-sa@dental-ai-agent-0529.iam.gserviceaccount.com",
+  "client_id": "112847087662648890185",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/ai-agent-sa%40dental-ai-agent-0529.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
