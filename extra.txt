@@ -1,0 +1,11 @@
+prometheus.remote_write "metrics_hosted_prometheus" {
+   endpoint {
+      name = "hosted-prometheus"
+      url  = "https://prometheus-prod-43-prod-ap-south-1.grafana.net/api/prom/push"
+  
+      basic_auth {
+        username = "2513369"
+        password = "glc_eyJvIjoiMTQ2MzMwMSIsIm4iOiJzdGFjay0xMjk0NTY3LWFsbG95LXZvaWNlLWFnZW50LWFsbG95IiwiayI6Ing4ZEozWUhmRVUwaDc5YXQ5STUyYzhNNiIsIm0iOnsiciI6InByb2QtYXAtc291dGgtMSJ9fQ=="
+      }
+   }
+}

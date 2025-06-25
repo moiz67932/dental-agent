@@ -1,0 +1,27 @@
+server alloy {
+  log_level = "info"
+
+  http {
+    listen_address = "0.0.0.0:12345"
+  }
+}
+
+metrics.prometheus_scrape "local_agent" {
+  targets = [
+    {
+      url = "http://host.docker.internal:9102/metrics"
+    }
+  ]
+}
+
+export.prometheus_remote_write "grafana_cloud" {
+  endpoint {
+    url = "https://prometheus-us-central1.grafana.net/api/prom/push"
+    basic_auth {
+      username = "2513369"
+      password = "glc_eyJvIjoiMTQ2MzMwMSIsIm4iOiJzdGFjay0xMjk0NTY3LWFsbG95LXZvaWNlLWFnZW50LWFsbG95IiwiayI6Ing4ZEozWUhmRVUwaDc5YXQ5STUyYzhNNiIsIm0iOnsiciI6InByb2QtYXAtc291dGgtMSJ9fQ=="
+    }
+  }
+
+  forward_to = [metrics.prometheus_scrape.local_agent.receiver]
+}

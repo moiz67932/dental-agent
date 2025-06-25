@@ -1,8 +1,49 @@
-livekit-agents~=1.0
-livekit-plugins-openai~=1.0
-livekit-plugins-cartesia~=1.0
-livekit-plugins-deepgram~=1.0
-livekit-plugins-silero~=1.0
-# optional, only when using LiveKit's turn detection model
-livekit-plugins-turn-detector~=1.0
-python-dotenv~=1.0
+# livekit-agents~=1.0
+# livekit-plugins-openai~=1.0
+# livekit-plugins-cartesia~=1.0
+# livekit-plugins-deepgram~=1.0
+# livekit-plugins-silero~=1.0
+# # optional, only when using LiveKit's turn detection model
+# livekit-plugins-turn-detector~=1.0
+# python-dotenv~=1.0
+
+
+# core assistant & voice stack
+livekit-agents==1.0.*
+livekit-plugins-deepgram==1.0.*
+livekit-plugins-silero==1.0.*
+livekit-plugins-openai==1.0.*
+livekit-plugins-cartesia==1.0.*
+livekit-plugins-noise-cancellation==0.2.4
+
+# LLM / embeddings
+openai>=1.14.0          # newer SDK for embeddings & chat
+
+# RAG + DB
+psycopg2-binary>=2.9
+pgvector==0.4.1
+
+# Google Calendar
+google-api-python-client>=2.113
+google-auth>=2.29
+google-auth-httplib2>=0.2
+python-dateutil>=2.9
+
+# Telephony / messaging
+twilio>=9.6
+
+# Utilities
+python-dotenv>=1.0
+pytz>=2024.1
+rich>=13.7             # nicer CLI logs (optional)
+
+# ↓ if you kept pandas / csv helpers; otherwise delete
+pandas>=2.2
+
+# ── observability ───────────────────────────────
+structlog==24.1.0
+prometheus_client==0.20.0
+
+# ── Google Generative AI ───────────────────────
+google-generativeai==0.5.2
+livekit-agents[google]~=1.0
